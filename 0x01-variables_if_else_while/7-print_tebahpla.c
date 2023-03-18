@@ -1,15 +1,16 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- *main -is entry point
- *Return: Always 0 if program is excute successfully
-*/
+ * main - entry point
+ * Return: always 0 if the program executed successfully
+ */
 int main(void)
 {
-	int n;
+	int n = 122;
 
-	for (n = 0; n <= 9; n++)
+	while (n >= 97)
 	{
-		putchar(n + 48);
+	putchar(n);
+	n--;
 	}
 	putchar('\n');
 	return (0);
